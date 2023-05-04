@@ -9,9 +9,9 @@ spring:
   # 定义数据库连接语句
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.177.136/graduation?serverTimezone=UTC
-    username: haoduor
-    password: qwe123
+    url: jdbc:mysql://127.0.0.1:3306/sqd?serverTimezone=UTC
+    username: root
+    password: zhy010919
   # thymeleaf 模板引擎配置
   thymeleaf:
     cache: false
